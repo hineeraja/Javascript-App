@@ -1,0 +1,139 @@
+/* Normalize styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+      font-family: Arial;
+      line-height: 3;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(179, 220, 220);
+   
+  }
+  
+  a {
+    text-decoration: none;
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      transition: color 0.3s ease-in-out;
+    }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  .scores a,
+  .timer {
+    font-size: 20px;
+  }
+  
+  .scores a {
+    color: rgb(2, 2, 29);
+    cursor: pointer;
+    
+  }
+  
+  .scores a:hover {
+    color: rgb(119, 78, 157);
+    text-decoration: underline;
+  }
+  
+  .start-quiz {
+  text-align: center;
+  padding: 10px;
+  background-color: #cdc5e2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #5D2691;
+  border-top: 1px solid #5D2691;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  background-color: #F9F5FF;
+  }
+  
+  .btndiv {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin: 25px 0;
+  }
+  
+  button {
+    font-family: Arial;
+    border: none;
+    width: auto;
+    border-radius: 10px;
+    overflow: visible;
+    padding: 10px;
+    background-color: rgb(48, 48, 128);
+   
+    font-size: large;
+    margin: 10px;
+    color: rgb(153, 153, 162);
+  }
+  
+  button:hover {
+    background-color: rgba(156, 90, 112, 0.294);
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .btn.correct {
+    background-color: rgb(83, 83, 181);
+  }
+  
+  .btn.wrong {
+    background-color: rgb(57, 5, 14);
+  }
+  
+  .button-controls {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  input[type="text"] {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    
+  }
+  
+  /* Highscores */
+  .highscore {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+  }
+  
+  .name-div,
+  .score-div {
+    border: 5px;
+    padding: 10px 0;
+    
+  }
