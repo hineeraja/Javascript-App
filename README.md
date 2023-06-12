@@ -21,4 +21,5 @@ URL to github repo
 https://github.com/hineeraja/Javascript-App
 
 deployed website URL
+https://hineeraja.github.io/Javascript-App/
 
