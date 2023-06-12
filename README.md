@@ -17,3 +17,8 @@ This is a simple quiz app built using JavaScript, HTML, and CSS. It presents the
 ![Alt text](image-1.png)
 
 ![Alt text](image-2.png)
+URL to github repo
+https://github.com/hineeraja/Javascript-App
+
+deployed website URL
+
